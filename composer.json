@@ -1,0 +1,28 @@
+{
+    "name": "topolis/queue",
+    "description": "A dynamic queuing system",
+    "type": "library",
+    "keywords": [
+        "library",
+        "topolis",
+        "queue",
+        "chain"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ToBe998",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload" : {
+        "psr-4" : {
+           "Topolis\\Queue\\" : "src"
+        }
+    }
+}
