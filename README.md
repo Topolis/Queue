@@ -5,6 +5,11 @@ priorities or item keys dont need to be unique.
 Note that the keys of an object might get a unique suffix if it is already taken
 
 #### Sample
+You can find samples inside the folder *sample*
+ - *silex.php* Demonstrating queue usage and lazy loading inside a silex application
+ - *simple* A simple stand-alone queue usage
+
+
 ```
 $queue = new Queue();
 
